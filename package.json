@@ -8,8 +8,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valor-software/ng2-dragula.git"
-  },
-  "keywords": [
+},
+"keywords": [
     "angular",
     "dragula",
     "ng-dragula",
@@ -18,14 +18,14 @@
     "angular2-dragula",
     "ng2-dragula",
     "ngx-dragula"
-  ],
-  "author": "NathanWalker <NathanWalker>",
-  "license": "MIT",
-  "bugs": {
+],
+"author": "NathanWalker <NathanWalker>",
+"license": "MIT",
+"bugs": {
     "url": "https://github.com/valor-software/ng2-dragula/issues"
-  },
-  "homepage": "https://github.com/valor-software/ng2-dragula#readme",
-  "scripts": {
+},
+"homepage": "https://github.com/valor-software/ng2-dragula#readme",
+"scripts": {
     "lite-server": "lite-server -c demo/bs-config.json",
     "demo.serve": "run-s build link demo.build lite-server",
     "demo.gh-pages": "run-s build demo.build demo.deploy",
@@ -43,17 +43,17 @@
     "test": "ng test -sr",
     "test-coverage": "ng test -sr -cc",
     "version": "npm run flow.changelog && git add -A"
-  },
-  "dependencies": {
-    "dragula": "^3.7.2"
-  },
-  "peerDependencies": {
+},
+"dependencies": {
+    "dragula": "git+https://github.com/Evoks/dragula.git"
+},
+"peerDependencies": {
     "@angular/core": "^2.3.1 || >=4.0.0",
     "@angular/common": "^2.3.1 || >=4.0.0",
     "@angular/compiler": "^2.3.1 || >=4.0.0",
     "@angular/forms": "^2.3.1 || >=4.0.0"
-  },
-  "devDependencies": {
+},
+"devDependencies": {
     "@angular/common": "2.4.3",
     "@angular/compiler": "2.4.3",
     "@angular/compiler-cli": "2.4.3",
@@ -120,5 +120,5 @@
     "wallaby-webpack": "0.0.30",
     "webdriver-manager": "11.1.1",
     "zone.js": "0.7.5"
-  }
+}
 }
